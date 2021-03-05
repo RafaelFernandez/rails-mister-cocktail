@@ -48,6 +48,7 @@ gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
 # Added by me
 gem 'autoprefixer-rails'
+gem 'cloudinary', '~> 1.16.0'
+gem 'dotenv-rails', groups: [:development, :test]
 gem 'font-awesome-sass', '~> 5.12.0'
 gem 'simple_form'
-gem 'dotenv-rails', groups: [:development, :test]
